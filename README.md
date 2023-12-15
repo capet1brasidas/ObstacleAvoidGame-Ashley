@@ -4,7 +4,8 @@ Building an obstacle avoid game using ashley;
 Using ashley's engine,entity and system other than traditional thought of oop;
 
 Design pattern used:
-Singleton:Use GameConfig to store static values
+
+1.Singleton:Use GameConfig to store static values
 
 
 ![image](https://github.com/capet1brasidas/ObstacleAvoidGame-Ashley/assets/141989335/4dc0f379-32e0-483c-ae5c-f47b43a96c53)
@@ -14,6 +15,7 @@ Singleton:Use GameConfig to store static values
 
 
 Function of each system
+Each system only cares about their own function and is independent of each other, which makes the code easy to maintain and adjust.
 
 ![image](https://github.com/capet1brasidas/ObstacleAvoidGame-Ashley/assets/141989335/fa9191e9-e3ec-4868-87e6-d7e2843418e6)
 
